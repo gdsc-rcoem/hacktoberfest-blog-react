@@ -2,24 +2,7 @@
 
 # Beginners Guide to the Open Source Contribution
 
-Wondering what open source is? <br>
-Why should someone contribute to open source?<br>
-What are different open-source programs?<br>
-How can you contribute?<br>
 
-Don’t worry we will cover all these topics in this article!
-
-# What is open source?
-
-Open-source software (OSS) also referred to as open-source is the publicly available source code of some software. Anyone can access the code, modify it, copy it, learn from it and give feedback.
-
-## There are two types of source codes:
-
-- One is only accessible to a few limited people in the organization who have built the software. And only they can manage and modify the source code.
-  They have exclusive control over it. This type of code is called “proprietary” or “closed source software”
-- Another is open-source software, which is publicly available for the community to read, modify and learn from it.
-
-As open-source software is publicly accessible, it relies on community feedback and modification. Open-source software is often cheaper, more flexible, and has more longevity than its proprietary peers because it is developed by communities rather than a single author or company. The limitation of proprietary software led to the open-source moment. The open-source model is a decentralized software development model that encourages open collaboration. The main principle of open-source software development is peer production. The contributor can contribute to source code, blueprints, and documentation freely available to the public.
 
 # How to contribute in any Open-Source Project ?
 

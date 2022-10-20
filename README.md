@@ -1,4 +1,4 @@
-![](images\devImage.svg)
+![](./images/devImage.svg)
 
 # Beginners Guide to the Open Source Contribution
 
@@ -37,8 +37,8 @@ To open any project on your local machine, click on open with Github Dekstop. Th
 
 Click `Open with GitHub Dekstop`
 
-![](images\contributionSteps\step2.png) <br>
-![](images\contributionSteps\step3.png)
+![](./images/contributionSteps/step2.png) <br>
+![](./images/contributionSteps/step3.png)
 
 ---
 
@@ -48,7 +48,7 @@ After cloning, the default branch is set to main. In order to make a pull reques
 
 Click `New branch`
 
-![](images\contributionSteps\step4.png)
+![](./images/contributionSteps/step4.png)
 
 ---
 
@@ -103,7 +103,7 @@ Commiting your changes means saving the changes your made and keeping them ready
 
 Head onto the github desktop app to commit your changes.
 
-![](images\contributionSteps\step5.png)
+![](./images/contributionSteps/step5.png)
 
 If it asks to fork the repository, then do it.
 
@@ -113,11 +113,11 @@ If it asks to fork the repository, then do it.
 
 Now can publish your branch if not done and push it. This will make copy and store the branch on the github site.
 
-![](fimages\contributionSteps\step8.png)
+![](./images/contributionSteps/step8.png)
 
 Now you can start the pull request by clicking `Create pull request`
 
-![](images\contributionSteps\step6.png)
+![](./images/contributionSteps/step6.png)
 
 ---
 
@@ -127,10 +127,10 @@ Now you can fill details about the pull request you are making and submit it.
 
 Add meaningful request message denoting your changes and then click `Create pull request`
 
-![](images\contributionSteps\step7.png)
+![](./images/contributionSteps/createPull.jpeg)
+
 
 ---
-
-![](images\contributionSteps\createPull.jpeg)
+![](./images/contributionSteps/step7.png)
 
 with this you have successfully made your first contribution in an Open-Source projects!!!

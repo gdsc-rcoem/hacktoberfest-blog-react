@@ -3,9 +3,10 @@ import {DiGithubFull} from "react-icons/di";
 import {GrInstagram} from "react-icons/gr";
 import UserMusic from "./UserMusic";
 
-function UserCard({id, name, about, bio}){
+function UserCard({id, name, about, bio, userNameGitHub, userNameInsta, songName, singerName, songCover}){
 
-    let songData = {name, bio}
+    let songData = {songName, singerName, songCover}
+    console.log(userNameGitHub, userNameInsta, name, about)
 
     return(
         <article className="single-contrib">
@@ -19,13 +20,12 @@ function UserCard({id, name, about, bio}){
             </div>
         </div>
         <div className="about">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacinia neque nunc, at viverra felis
-                egestas ac.
+            <p> {bio}
             </p>
         </div>
         <div className="icon-tray" style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}>
-            <a href={`https://github.com`} style={{textDecoration: 'none', color: 'black'}}> <DiGithubFull size={100} /></a>
-            <a href={`https://instagram.com`} style={{textDecoration: 'none', color: 'black'}}> <GrInstagram size={50} /></a>
+            <a href={`https://github.com/${userNameGitHub}`} style={{textDecoration: 'none', color: 'black'}}> <DiGithubFull size={100} /></a>
+            <a href={`https://instagram.com/${userNameInsta}`} style={{textDecoration: 'none', color: 'black'}}> <GrInstagram size={50} /></a>
         </div>
             <UserMusic SongData = {songData}/>
     </div>
